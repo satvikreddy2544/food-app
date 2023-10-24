@@ -1,0 +1,22 @@
+.menuItem{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.item-img{
+
+    width: 200px;
+}
+
+.menuItem button{
+
+    border: 1px solid black;
+    background: green;
+    height: 40px;
+    border-radius: 5px;
+}

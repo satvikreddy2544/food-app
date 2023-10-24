@@ -1,0 +1,45 @@
+.cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-left: 50px;
+    
+}
+
+.search-container{
+
+    /* margin-left: 65px; */
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.noData{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   color: red;
+   margin-top: 20px;
+}
+
+.cards a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.search-container input{
+
+    width: 330px;
+    height: 33px;
+    font-size: large;
+    padding: 8px;
+}
+
+.search-btn{
+
+    width: 50px;
+}
